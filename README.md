@@ -6,7 +6,7 @@ from aiogram.filters import CommandStart
 from aiogram.fsm.state import State, StatesGroup
 from aiogram.fsm.context import FSMContext
 
-TOKEN = "8024944878:AAEXjUgJe-nq-j7wDHYzJ7x1pZ9jdaZDokE"
+TOKEN = ""
 
 bot = Bot(token=TOKEN)
 dp = Dispatcher()
@@ -95,3 +95,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
